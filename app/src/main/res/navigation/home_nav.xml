@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/item_home">
+
+    <fragment
+        android:id="@+id/item_home"
+        android:name="com.husnain.cartracker.HomeFragment"
+        android:label="TrackFragment" />
+    <fragment
+        android:id="@+id/item_reported"
+        android:name="com.husnain.cartracker.ReportedFragment"
+        android:label="ReportedFragment" />
+    <fragment
+        android:id="@+id/item_tracked"
+        android:name="com.husnain.cartracker.TrackedFragment"
+        android:label="TrackedFragment" />
+<!--    <fragment-->
+<!--        android:id="@+id/item_report"-->
+<!--        android:name="com.husnain.cartracker.ReportCarActivity"-->
+<!--        android:label="ReportedFragment" />-->
+    <fragment
+        android:id="@+id/item_search"
+        android:name="com.husnain.cartracker.SearchFragment"
+        android:label="SearchFragment" />
+</navigation>

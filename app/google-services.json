@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "92303985086",
+    "project_id": "cartracker-ca318",
+    "storage_bucket": "cartracker-ca318.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92303985086:android:f86f54668ac1bd47ec51ef",
+        "android_client_info": {
+          "package_name": "com.husnain.cartracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcXgPqWPZtVK9xWAhf00oSpRAjKclsOsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
